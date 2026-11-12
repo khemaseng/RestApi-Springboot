@@ -13,9 +13,9 @@ public class UserRepository {
     public UserRepository() {
         users = new ArrayList<>();
         User usrAdmin = new User(UUID.randomUUID(), "Administrator", "admin", "admin@istad.edu.kh", true);
-        User usrEditor = new User(UUID.randomUUID(), "Editor", "editor", "editor@istad.edu.kh", false);
-        User usrCustomer = new User(UUID.randomUUID(), "Khema Seng", "KMS", "khema@istad.edu.kh", true);
-        User usrManager = new User(UUID.randomUUID(), "Manager", "manager", "manager@istad.edu.kh", true);
+        User usrEditor = new User(UUID.randomUUID(), "Kevin", "kevin999", "kevin89@istad.edu.kh", false);
+        User usrCustomer = new User(UUID.randomUUID(), "Khema Seng", "KMS", "khema888@istad.edu.kh", true);
+        User usrManager = new User(UUID.randomUUID(), "Traaa", "tra888", "traaa@istad.edu.kh", true);
         users.add(usrAdmin);
         users.add(usrEditor);
         users.add(usrCustomer);
